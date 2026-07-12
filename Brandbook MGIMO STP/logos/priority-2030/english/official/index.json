@@ -1,0 +1,51 @@
+{
+  "status": "official-english",
+  "sourceDirectory": "C:\\Users\\arsen\\Downloads\\Приоритет 2030\\01. Логотип\\01.1 Полная версия логотипа\\01.1.2 Латинская версия",
+  "files": [
+    {
+      "path": "logos/priority-2030/english/official/logo-priority-latin-color.ai",
+      "source": "C:\\Users\\arsen\\Downloads\\Приоритет 2030\\01. Логотип\\01.1 Полная версия логотипа\\01.1.2 Латинская версия\\Цветной логотип\\logo-priority-color.ai",
+      "status": "official-english"
+    },
+    {
+      "path": "logos/priority-2030/english/official/logo-priority-latin-color.png",
+      "source": "C:\\Users\\arsen\\Downloads\\Приоритет 2030\\01. Логотип\\01.1 Полная версия логотипа\\01.1.2 Латинская версия\\Цветной логотип\\logo-priority-color.png",
+      "status": "official-english"
+    },
+    {
+      "path": "logos/priority-2030/english/official/logo-priority-latin-color.svg",
+      "source": "C:\\Users\\arsen\\Downloads\\Приоритет 2030\\01. Логотип\\01.1 Полная версия логотипа\\01.1.2 Латинская версия\\Цветной логотип\\logo-priority-color.svg",
+      "status": "official-english"
+    },
+    {
+      "path": "logos/priority-2030/english/official/logo-priority-latin-light-background-black.ai",
+      "source": "C:\\Users\\arsen\\Downloads\\Приоритет 2030\\01. Логотип\\01.1 Полная версия логотипа\\01.1.2 Латинская версия\\Черно-белый логотип\\Для светлого фона\\white-background.ai",
+      "status": "official-english"
+    },
+    {
+      "path": "logos/priority-2030/english/official/logo-priority-latin-light-background-black.png",
+      "source": "C:\\Users\\arsen\\Downloads\\Приоритет 2030\\01. Логотип\\01.1 Полная версия логотипа\\01.1.2 Латинская версия\\Черно-белый логотип\\Для светлого фона\\white-background.png",
+      "status": "official-english"
+    },
+    {
+      "path": "logos/priority-2030/english/official/logo-priority-latin-light-background-black.svg",
+      "source": "C:\\Users\\arsen\\Downloads\\Приоритет 2030\\01. Логотип\\01.1 Полная версия логотипа\\01.1.2 Латинская версия\\Черно-белый логотип\\Для светлого фона\\white-background.svg",
+      "status": "official-english"
+    },
+    {
+      "path": "logos/priority-2030/english/official/logo-priority-latin-dark-background-white.ai",
+      "source": "C:\\Users\\arsen\\Downloads\\Приоритет 2030\\01. Логотип\\01.1 Полная версия логотипа\\01.1.2 Латинская версия\\Черно-белый логотип\\Для тёмного фона\\dark-background.ai",
+      "status": "official-english"
+    },
+    {
+      "path": "logos/priority-2030/english/official/logo-priority-latin-dark-background-white.png",
+      "source": "C:\\Users\\arsen\\Downloads\\Приоритет 2030\\01. Логотип\\01.1 Полная версия логотипа\\01.1.2 Латинская версия\\Черно-белый логотип\\Для тёмного фона\\dark-background.png",
+      "status": "official-english"
+    },
+    {
+      "path": "logos/priority-2030/english/official/logo-priority-latin-dark-background-white.svg",
+      "source": "C:\\Users\\arsen\\Downloads\\Приоритет 2030\\01. Логотип\\01.1 Полная версия логотипа\\01.1.2 Латинская версия\\Черно-белый логотип\\Для тёмного фона\\dark-background.svg",
+      "status": "official-english"
+    }
+  ]
+}

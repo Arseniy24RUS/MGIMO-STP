@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="260" viewBox="0 0 720 260">
+  <rect width="720" height="260" fill="#031E4F"/>
+  <g opacity=".22" fill="#2947A0"><rect x="596" y="16" width="40" height="40"/><rect x="636" y="56" width="40" height="40"/><rect x="556" y="96" width="40" height="40"/><rect x="596" y="136" width="80" height="40"/></g>
+  <g fill="none" stroke="#539D96" stroke-width="2"><path d="M70 186L210 120L354 162L520 86" opacity=".75"/><path d="M72 142H560" opacity=".26"/><path d="M72 98H560" opacity=".18"/><path d="M72 54H560" opacity=".12"/></g>
+  <g font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#FFFFFF" text-anchor="middle">
+    <g><rect x="74" y="52" width="112" height="112" fill="none" stroke="#539D96" stroke-width="2"/><rect x="96" y="74" width="68" height="22" fill="#2947A0"/><rect x="96" y="106" width="44" height="22" fill="#539D96"/><text x="130" y="194">map</text></g>
+    <g><rect x="230" y="52" width="112" height="112" fill="none" stroke="#539D96" stroke-width="2"/><rect x="252" y="74" width="22" height="22" fill="#539D96"/><rect x="284" y="74" width="22" height="22" fill="#2947A0"/><rect x="252" y="106" width="54" height="22" fill="#2947A0"/><text x="286" y="194">data</text></g>
+    <g><rect x="386" y="52" width="112" height="112" fill="none" stroke="#539D96" stroke-width="2"/><path d="M414 126L440 86L470 132" stroke="#539D96" stroke-width="5" fill="none"/><text x="442" y="194">model</text></g>
+    <g><rect x="542" y="52" width="112" height="112" fill="#2947A0" stroke="#539D96" stroke-width="2"/><rect x="566" y="76" width="64" height="64" fill="#031E4F" opacity=".55"/><text x="598" y="194">atlas</text></g>
+  </g>
+</svg>

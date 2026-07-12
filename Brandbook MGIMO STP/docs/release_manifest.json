@@ -1,0 +1,19 @@
+{
+  "release": "MGIMO_STP_brandbook_release_updated",
+  "brandbook_files_unchanged": true,
+  "root_files": {
+    "MGIMO_STP_brandbook.pdf": {
+      "sha256": "5af7a152e98b3c681437de07661be8a4717d6353ca1cb651357dca433e00bdf7",
+      "bytes": 2458868
+    },
+    "MGIMO_STP_brandbook.pptx": {
+      "sha256": "026fb7e00508c7c039ffa2c568b01e8d2dcc4852988bc529d13c6f4467b66e13",
+      "bytes": 22634598
+    }
+  },
+  "updated": {
+    "figma_source": "figma/source/MGIMO_STP_landing_page_concepts.fig",
+    "project_covers_dir": "visuals/project-covers/",
+    "favicons_dir": "favicons/"
+  }
+}

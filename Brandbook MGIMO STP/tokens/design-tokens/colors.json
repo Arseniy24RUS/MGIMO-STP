@@ -1,0 +1,159 @@
+{
+  "generatedAt": "2026-07-07T16:19:33.263Z",
+  "colors": [
+    {
+      "name": "Dark theme background",
+      "ru": "Тёмный фон",
+      "hex": "#0A132D",
+      "rgb": [
+        10,
+        19,
+        45
+      ],
+      "usage": "Main dark landing background"
+    },
+    {
+      "name": "Priority dark blue",
+      "ru": "Тёмный синий Priority",
+      "hex": "#031E4F",
+      "rgb": [
+        3,
+        30,
+        79
+      ],
+      "usage": "Header, dark cards, cube background"
+    },
+    {
+      "name": "Priority primary blue",
+      "ru": "Основной синий Priority",
+      "hex": "#2947A0",
+      "rgb": [
+        41,
+        71,
+        160
+      ],
+      "usage": "Primary actions and cube modules"
+    },
+    {
+      "name": "Priority deep blue",
+      "ru": "Дополнительный синий Priority",
+      "hex": "#192F70",
+      "rgb": [
+        25,
+        47,
+        112
+      ],
+      "usage": "Secondary blue and dark logo material"
+    },
+    {
+      "name": "Priority accent green",
+      "ru": "Акцентный зелёный Priority",
+      "hex": "#539D96",
+      "rgb": [
+        83,
+        157,
+        150
+      ],
+      "usage": "Accent text and cube modules"
+    },
+    {
+      "name": "White",
+      "ru": "Белый",
+      "hex": "#FFFFFF",
+      "rgb": [
+        255,
+        255,
+        255
+      ],
+      "usage": "Text and white cube modules on dark backgrounds"
+    },
+    {
+      "name": "Pattern tint blue 1",
+      "ru": "Светлый синий паттерна",
+      "hex": "#3C5DBC",
+      "rgb": [
+        60,
+        93,
+        188
+      ],
+      "usage": "Pattern tint sampled from Priority brandbook examples"
+    },
+    {
+      "name": "Pattern tint blue 2",
+      "ru": "Светлый синий паттерна 2",
+      "hex": "#4D6BC8",
+      "rgb": [
+        77,
+        107,
+        200
+      ],
+      "usage": "Pattern tint sampled from Priority brandbook examples"
+    },
+    {
+      "name": "Pattern tint blue 3",
+      "ru": "Светлый синий паттерна 3",
+      "hex": "#6280D9",
+      "rgb": [
+        98,
+        128,
+        217
+      ],
+      "usage": "Pattern tint sampled from Priority brandbook examples"
+    },
+    {
+      "name": "Pattern tint green 1",
+      "ru": "Светлый зелёный паттерна",
+      "hex": "#67AEA7",
+      "rgb": [
+        103,
+        174,
+        167
+      ],
+      "usage": "Pattern tint sampled from Priority brandbook examples"
+    },
+    {
+      "name": "Pattern tint green 2",
+      "ru": "Светлый зелёный паттерна 2",
+      "hex": "#A7DBD6",
+      "rgb": [
+        167,
+        219,
+        214
+      ],
+      "usage": "Pattern tint sampled from Priority brandbook examples"
+    },
+    {
+      "name": "MGIMO blue",
+      "ru": "Синий МГИМО из SVG",
+      "hex": "#1C2353",
+      "rgb": [
+        28,
+        35,
+        83
+      ],
+      "usage": "MGIMO building and wordmark source color"
+    },
+    {
+      "name": "MGIMO flag blue",
+      "ru": "Синий флага в знаке МГИМО",
+      "hex": "#16479E",
+      "rgb": [
+        22,
+        71,
+        158
+      ],
+      "usage": "MGIMO building flag stripe"
+    },
+    {
+      "name": "MGIMO flag red",
+      "ru": "Красный флага в знаке МГИМО",
+      "hex": "#D22A2B",
+      "rgb": [
+        210,
+        42,
+        43
+      ],
+      "usage": "MGIMO building flag stripe"
+    }
+  ]
+}

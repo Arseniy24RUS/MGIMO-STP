@@ -1,0 +1,10 @@
+# Local QA and temporary output
+qa/
+qa-screenshots/
+playwright-report/
+test-results/
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+

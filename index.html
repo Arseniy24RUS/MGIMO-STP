@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="ru" data-theme="auto" data-page="home">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark light">
+  <link rel="icon" href="./assets/favicon/mgimo-building.svg" type="image/svg+xml">
+  <link rel="icon" href="./assets/favicon/favicon-32.png" type="image/png" sizes="32x32">
+  <link rel="apple-touch-icon" href="./assets/favicon/apple-touch-icon.png" sizes="180x180">
+  <title>СТП МГИМО</title>
+  <meta name="description" content="Стратегические технологические проекты МГИМО: витрина проектного портфеля, консорциумы и партнёрство.">
+  <link rel="stylesheet" href="./assets/vendor/leaflet/leaflet.css?v=1.9.4">
+  <link rel="stylesheet" href="./styles.css?v=release-2026-07-12">
+</head>
+<body>
+  <header class="site-header" aria-label="Institutional header">
+    <div class="header-inner">
+      <div class="brand-strip" aria-label="MGIMO STP">
+        <a class="brand-logo-link" href="./index.html#top" aria-label="МГИМО Университет">
+          <img id="logo-mgimo" class="logo logo-mgimo" src="./assets/logos/mgimo-ru-dark.svg" alt="МГИМО Университет">
+        </a>
+        <a class="brand-logo-link" href="https://priority2030.ru/" target="_blank" rel="noopener noreferrer" aria-label="Приоритет 2030">
+          <img id="logo-priority" class="logo logo-priority" src="./assets/logos/priority-ru-dark.svg" alt="Приоритет 2030">
+        </a>
+        <a class="brand-logo-link" href="https://minobrnauki.gov.ru/action/priority2030/" target="_blank" rel="noopener noreferrer" aria-label="Минобрнауки России: Приоритет 2030">
+          <img id="logo-minobrnauki" class="logo logo-minobrnauki" src="./assets/logos/minobrnauki-ru-dark.png" alt="Минобрнауки России">
+        </a>
+      </div>
+
+      <nav class="main-nav" aria-label="Primary navigation">
+        <a href="./index.html#about" data-i18n="nav.about">О проектах</a>
+        <a href="./index.html#projects" data-i18n="nav.projects">СТП</a>
+        <a href="./index.html#partners" data-i18n="nav.partners">Партнёрам</a>
+        <a href="./index.html#contact" data-i18n="nav.contacts">Контакты</a>
+      </nav>
+
+      <div class="top-actions" aria-label="Controls">
+        <button class="icon-control" type="button" id="themeToggle" data-target-theme="light" aria-label="Переключить тему" title="Тема">
+          <span class="theme-icon" aria-hidden="true"></span>
+        </button>
+        <button class="lang-control" type="button" id="langToggle" aria-label="Switch language">EN</button>
+        <a class="header-cta" href="mailto:project_office@inno.mgimo.ru" data-open-cooperation>
+          <span data-i18n="nav.cta">Сотрудничество</span>
+          <span aria-hidden="true">→</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero section-grid" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow" data-i18n="hero.eyebrow">СТРАТЕГИЯ • ТЕХНОЛОГИИ • ПАРТНЁРСТВО</p>
+        <h1 id="hero-title" data-i18n="hero.title">Стратегические технологические проекты МГИМО</h1>
+        <p class="lead" data-i18n="hero.copy">Витрина проектного портфеля МГИМО: консорциумы, прикладная экспертиза и решения для партнёров в логике программы «Приоритет 2030».</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="mailto:project_office@inno.mgimo.ru" data-open-cooperation><span data-i18n="hero.primary">Сотрудничество</span><span aria-hidden="true">→</span></a>
+          <a class="button button-secondary" href="./index.html#projects"><span data-i18n="hero.secondary">Смотреть проекты</span><span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+
+      <figure class="hero-visual" aria-label="MGIMO STP ecosystem visual">
+        <img id="heroImage" src="./assets/hero/hero-dark-ru.png" alt="Экосистема стратегических технологических проектов МГИМО">
+      </figure>
+    </section>
+
+    <section class="content-section featured-projects" id="projects" aria-labelledby="projects-title">
+      <h2 id="projects-title" data-i18n="projects.title">Избранные СТП</h2>
+      <div class="project-grid" id="projectGrid"></div>
+    </section>
+
+    <section class="proof-strip" id="about" aria-label="Project model">
+      <article class="proof-item">
+        <span class="letter-box" data-icon="model" aria-hidden="true"></span>
+        <div><h2 data-i18n="proof.0.title">Модель</h2><p data-i18n="proof.0.copy">Консорциум под задачу</p></div>
+      </article>
+      <article class="proof-item">
+        <span class="letter-box accent" data-icon="expertise" aria-hidden="true"></span>
+        <div><h2 data-i18n="proof.1.title">Экспертиза</h2><p data-i18n="proof.1.copy">Исследования и платформы</p></div>
+      </article>
+      <article class="proof-item">
+        <span class="letter-box" data-icon="pilot" aria-hidden="true"></span>
+        <div><h2 data-i18n="proof.2.title">Пилот</h2><p data-i18n="proof.2.copy">Проверка решений</p></div>
+      </article>
+      <article class="proof-item">
+        <span class="letter-box accent" data-icon="launch" aria-hidden="true"></span>
+        <div><h2 data-i18n="proof.3.title">Внедрение</h2><p data-i18n="proof.3.copy">Масштабирование эффекта</p></div>
+      </article>
+    </section>
+
+    <section class="content-section" id="partners" aria-labelledby="audience-title">
+      <h2 id="audience-title" data-i18n="audience.title">Для кого</h2>
+      <div class="audience-grid">
+        <article class="info-card"><span class="letter-box" data-icon="government" aria-hidden="true"></span><div><h3 data-i18n="audience.items.0.title">Государство</h3><p data-i18n="audience.items.0.copy">Стратегические приоритеты</p></div></article>
+        <article class="info-card"><span class="letter-box accent" data-icon="business" aria-hidden="true"></span><div><h3 data-i18n="audience.items.1.title">Бизнес</h3><p data-i18n="audience.items.1.copy">Рост и эффективность</p></div></article>
+        <article class="info-card"><span class="letter-box" data-icon="university" aria-hidden="true"></span><div><h3 data-i18n="audience.items.2.title">Вузы и НИИ</h3><p data-i18n="audience.items.2.copy">Исследования и кадры</p></div></article>
+        <article class="info-card"><span class="letter-box accent" data-icon="tech" aria-hidden="true"></span><div><h3 data-i18n="audience.items.3.title">Техпартнёры</h3><p data-i18n="audience.items.3.copy">Интеграция решений</p></div></article>
+      </div>
+    </section>
+
+    <section class="content-section" aria-labelledby="activity-title">
+      <h2 id="activity-title" data-i18n="activity.title">Что делает МГИМО</h2>
+      <div class="activity-row">
+        <article class="activity-item"><span class="letter-box" data-icon="research" aria-hidden="true"></span><div><h3 data-i18n="activity.items.0.title">Исследования</h3><p data-i18n="activity.items.0.copy">Аналитика и прогнозы</p></div></article>
+        <article class="activity-item"><span class="letter-box accent" data-icon="platform" aria-hidden="true"></span><div><h3 data-i18n="activity.items.1.title">Цифровые платформы</h3><p data-i18n="activity.items.1.copy">Данные и сервисы</p></div></article>
+        <article class="activity-item"><span class="letter-box" data-icon="pilot" aria-hidden="true"></span><div><h3 data-i18n="activity.items.2.title">Пилоты</h3><p data-i18n="activity.items.2.copy">Проверка гипотез</p></div></article>
+        <article class="activity-item"><span class="letter-box accent" data-icon="education" aria-hidden="true"></span><div><h3 data-i18n="activity.items.3.title">Образование</h3><p data-i18n="activity.items.3.copy">Компетенции команд</p></div></article>
+        <article class="activity-item"><span class="letter-box" data-icon="launch" aria-hidden="true"></span><div><h3 data-i18n="activity.items.4.title">Внедрение</h3><p data-i18n="activity.items.4.copy">Масштабирование</p></div></article>
+      </div>
+    </section>
+
+    <section class="content-section flow-section" aria-labelledby="flow-title">
+      <h2 id="flow-title" data-i18n="flow.title">Как устроено партнёрство</h2>
+      <div class="flow-row">
+        <article class="step-card"><strong>1</strong><div><h3 data-i18n="flow.steps.0.title">Задача</h3><p data-i18n="flow.steps.0.copy">Фиксируем цель</p></div></article>
+        <span class="flow-arrow" aria-hidden="true">→</span>
+        <article class="step-card"><strong>2</strong><div><h3 data-i18n="flow.steps.1.title">Консорциум</h3><p data-i18n="flow.steps.1.copy">Собираем партнёров</p></div></article>
+        <span class="flow-arrow" aria-hidden="true">→</span>
+        <article class="step-card"><strong>3</strong><div><h3 data-i18n="flow.steps.2.title">Пилот</h3><p data-i18n="flow.steps.2.copy">Проверяем решение</p></div></article>
+        <span class="flow-arrow" aria-hidden="true">→</span>
+        <article class="step-card"><strong>4</strong><div><h3 data-i18n="flow.steps.3.title">Внедрение</h3><p data-i18n="flow.steps.3.copy">Масштабируем эффект</p></div></article>
+      </div>
+    </section>
+
+    <section class="final-cta" id="cooperation" aria-labelledby="cta-title">
+      <div class="cta-pattern" aria-hidden="true"></div>
+      <div>
+        <h2 id="cta-title" data-i18n="cta.title">Опишите задачу — предложим формат сотрудничества</h2>
+        <p data-i18n="cta.copy">Подберём релевантный СТП, экспертов и партнёров.</p>
+      </div>
+      <div class="cta-actions">
+        <a class="button button-primary" href="mailto:project_office@inno.mgimo.ru" data-open-cooperation><span data-i18n="cta.contact">Сотрудничество</span><span aria-hidden="true">→</span></a>
+      </div>
+    </section>
+
+    <section class="contact-showcase" id="contact" aria-labelledby="contact-title">
+      <div class="contact-copy">
+        <p class="contact-label" data-i18n="contact.label">ПРОЕКТНЫЙ ОФИС МГИМО</p>
+        <h2 id="contact-title" data-i18n="contact.title">Понравились проекты? Свяжитесь с нами!</h2>
+
+        <dl class="contact-details">
+          <div class="contact-detail">
+            <dt><span class="contact-detail-icon contact-detail-icon--phone" aria-hidden="true"></span><span data-i18n="contact.phoneLabel">Телефон</span></dt>
+            <dd><a href="tel:+74952348486">+7 (495) 234-84-86</a></dd>
+          </div>
+          <div class="contact-detail">
+            <dt><span class="contact-detail-icon contact-detail-icon--mail" aria-hidden="true"></span><span data-i18n="contact.emailLabel">E-mail</span></dt>
+            <dd><a href="mailto:project_office@inno.mgimo.ru">project_office@inno.mgimo.ru</a></dd>
+          </div>
+          <div class="contact-detail">
+            <dt><span class="contact-detail-icon contact-detail-icon--pin" aria-hidden="true"></span><span data-i18n="contact.addressLabel">Адрес</span></dt>
+            <dd><a href="https://www.openstreetmap.org/?mlat=55.6725952&amp;mlon=37.4857089#map=17/55.6725952/37.4857089" target="_blank" rel="noopener noreferrer" data-i18n="contact.address">Москва, просп. Вернадского, 76, корп. В</a></dd>
+          </div>
+        </dl>
+      </div>
+
+      <div class="contact-map-shell">
+        <div class="contact-map-fallback">
+          <span data-i18n="contact.mapFallback">Карта кампуса МГИМО</span>
+        </div>
+        <div id="contactMap" class="contact-map" role="region" data-i18n-aria-label="contact.mapAria" aria-label="Интерактивная карта кампуса МГИМО"></div>
+      </div>
+    </section>
+  </main>
+
+  <script src="./assets/vendor/leaflet/leaflet.js?v=1.9.4"></script>
+  <script src="./app.js?v=release-2026-07-12"></script>
+</body>
+</html>

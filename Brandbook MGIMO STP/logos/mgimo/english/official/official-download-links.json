@@ -1,0 +1,18 @@
+{
+  "status": "official-links-not-downloaded",
+  "reason": "Automated local downloads from english.mgimo.ru and mgimo.ru returned the site protection HTML page instead of the linked files on 2026-07-07.",
+  "officialPages": [
+    "https://english.mgimo.ru/basic-facts/logo",
+    "https://mgimo.ru/about/logo/"
+  ],
+  "directLinks": [
+    "https://english.mgimo.ru/upload/logo/mgimo-logo-eng.svg",
+    "https://english.mgimo.ru/upload/logo/mgimo-logo-eng.png",
+    "https://english.mgimo.ru/upload/logo/mgimo-logo-eng.eps",
+    "https://english.mgimo.ru/upload/logo/mgimo-logo-eng.jpg",
+    "https://english.mgimo.ru/upload/logo/mgimo-logo-eng-white.svg",
+    "https://english.mgimo.ru/upload/logo/mgimo-logo-eng-white.png",
+    "https://english.mgimo.ru/upload/logo/mgimo-logo-eng-white.eps",
+    "https://english.mgimo.ru/upload/logo/mgimo-logo-eng-white.jpg"
+  ]
+}

@@ -1,0 +1,16 @@
+:root {
+  --dark-theme-background: #0A132D;
+  --priority-dark-blue: #031E4F;
+  --priority-primary-blue: #2947A0;
+  --priority-deep-blue: #192F70;
+  --priority-accent-green: #539D96;
+  --white: #FFFFFF;
+  --pattern-tint-blue-1: #3C5DBC;
+  --pattern-tint-blue-2: #4D6BC8;
+  --pattern-tint-blue-3: #6280D9;
+  --pattern-tint-green-1: #67AEA7;
+  --pattern-tint-green-2: #A7DBD6;
+  --mgimo-blue: #1C2353;
+  --mgimo-flag-blue: #16479E;
+  --mgimo-flag-red: #D22A2B;
+}

@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="ru" data-theme="auto" data-page="project" data-project="digital-systems">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark light">
+  <link rel="icon" href="./assets/favicon/mgimo-building.svg" type="image/svg+xml">
+  <link rel="icon" href="./assets/favicon/favicon-32.png" type="image/png" sizes="32x32">
+  <link rel="apple-touch-icon" href="./assets/favicon/apple-touch-icon.png" sizes="180x180">
+  <title>СТП МГИМО</title>
+  <meta name="description" content="Страница стратегического технологического проекта МГИМО.">
+  <link rel="stylesheet" href="./styles.css?v=release-2026-07-12">
+</head>
+<body>
+  <header class="site-header" aria-label="Institutional header">
+    <div class="header-inner">
+      <div class="brand-strip" aria-label="MGIMO STP">
+        <a class="brand-logo-link" href="./index.html#top" aria-label="MGIMO">
+          <img id="logo-mgimo" class="logo logo-mgimo" src="./assets/logos/mgimo-ru-dark.svg" alt="МГИМО Университет">
+        </a>
+        <a class="brand-logo-link" href="https://priority2030.ru/" target="_blank" rel="noopener noreferrer" aria-label="Priority 2030">
+          <img id="logo-priority" class="logo logo-priority" src="./assets/logos/priority-ru-dark.svg" alt="Приоритет 2030">
+        </a>
+        <a class="brand-logo-link" href="https://minobrnauki.gov.ru/action/priority2030/" target="_blank" rel="noopener noreferrer" aria-label="Ministry of Science and Higher Education">
+          <img id="logo-minobrnauki" class="logo logo-minobrnauki" src="./assets/logos/minobrnauki-ru-dark.png" alt="Минобрнауки России">
+        </a>
+      </div>
+      <nav class="main-nav" aria-label="Primary navigation">
+        <a href="./index.html#about" data-i18n="nav.about">О проектах</a>
+        <a href="./index.html#projects" data-i18n="nav.projects">СТП</a>
+        <a href="./index.html#partners" data-i18n="nav.partners">Партнёрам</a>
+        <a href="./index.html#contact" data-i18n="nav.contacts">Контакты</a>
+      </nav>
+      <div class="top-actions" aria-label="Controls">
+        <button class="icon-control" type="button" id="themeToggle" data-target-theme="light" aria-label="Переключить тему" title="Тема"><span class="theme-icon" aria-hidden="true"></span></button>
+        <button class="lang-control" type="button" id="langToggle" aria-label="Switch language">EN</button>
+        <a class="header-cta" href="mailto:project_office@inno.mgimo.ru" data-open-cooperation><span data-i18n="nav.cta">Сотрудничество</span><span aria-hidden="true">→</span></a>
+      </div>
+    </div>
+  </header>
+  <main id="top">
+    <section class="project-page-hero" aria-labelledby="project-title">
+      <div class="project-page-copy">
+        <a class="back-link" href="./index.html#projects" data-i18n="projectPage.back">← К витрине СТП</a>
+        <p class="eyebrow" data-i18n="projectPage.eyebrow">СТРАТЕГИЧЕСКИЙ ТЕХНОЛОГИЧЕСКИЙ ПРОЕКТ</p>
+        <h1 id="project-title"></h1>
+      </div>
+      <figure class="project-page-visual">
+        <img id="projectHeroImage" src="./assets/projects/project-digital-systems-dark.png" alt="">
+      </figure>
+      <p class="lead project-page-summary" id="project-summary"></p>
+    </section>
+    <section class="project-source content-section" aria-labelledby="project-content-title">
+      <h2 id="project-content-title" data-i18n="projectPage.contentTitle">Материалы проекта</h2>
+      <div id="projectContent" class="project-content"></div>
+    </section>
+  </main>
+  <script src="./app.js?v=release-2026-07-12"></script>
+  <script src="./project-enhancements.js?v=release-2026-07-12"></script>
+</body>
+</html>
