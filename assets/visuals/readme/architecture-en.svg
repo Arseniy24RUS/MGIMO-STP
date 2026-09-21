@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="660" viewBox="0 0 1040 660" role="img" aria-labelledby="title desc">
+  <title id="title">MGIMO-STP static publishing architecture</title>
+  <desc id="desc">Workflow from bilingual content and brand assets into static pages, runtime interactions, cooperation dialog, and GitHub Pages deployment.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto">
+      <path d="M2 2 L10 6 L2 10 Z" fill="#5bd0d3"/>
+    </marker>
+    <style>
+      .bg{fill:#071633}
+      .panel{fill:#0c2147;stroke:#24508f;stroke-width:2}
+      .panel-bright{fill:#12316a;stroke:#5bd0d3;stroke-width:2}
+      .panel-note{fill:#071f3b;stroke:#8aa6d6;stroke-width:2}
+      .title{font:700 32px Arial,sans-serif;fill:#fff}
+      .subtitle{font:400 22px Arial,sans-serif;fill:#bfd0f3}
+      .kicker{font:700 18px Arial,sans-serif;letter-spacing:2px;fill:#5bd0d3}
+      .heading{font:700 25px Arial,sans-serif;fill:#fff}
+      .body{font:400 22px Arial,sans-serif;fill:#e6eefc}
+      .small{font:400 22px Arial,sans-serif;fill:#bfd0f3}
+      .arrow{stroke:#5bd0d3;stroke-width:3;fill:none;marker-end:url(#arrow)}
+    </style>
+  </defs>
+  <rect class="bg" width="1040" height="660"/>
+  <text class="title" x="40" y="56">MGIMO-STP static publishing architecture</text>
+  <text class="subtitle" x="40" y="90">Bilingual portfolio site with project pages, brand assets, and cooperation requests</text>
+
+  <rect class="panel" x="40" y="130" width="285" height="165" rx="8"/>
+  <text class="kicker" x="64" y="162">CONTENT MODEL</text>
+  <text class="heading" x="64" y="196">RU / EN dictionary</text>
+  <text class="body" x="64" y="230">Home copy, project</text>
+  <text class="body" x="64" y="258">details, source URLs,</text>
+  <text class="body" x="64" y="286">teams and partners</text>
+
+  <rect class="panel" x="377" y="130" width="285" height="165" rx="8"/>
+  <text class="kicker" x="401" y="162">BRAND PACKAGE</text>
+  <text class="heading" x="401" y="196">Local assets</text>
+  <text class="body" x="401" y="230">MGIMO / Priority /</text>
+  <text class="body" x="401" y="258">Ministry logos, hero</text>
+  <text class="body" x="401" y="286">and project covers</text>
+
+  <rect class="panel-bright" x="714" y="130" width="285" height="165" rx="8"/>
+  <text class="kicker" x="738" y="162">STATIC PAGES</text>
+  <text class="heading" x="738" y="196">No build step</text>
+  <text class="body" x="738" y="230">index.html, project</text>
+  <text class="body" x="738" y="258">pages, consent page,</text>
+  <text class="body" x="738" y="286">CSS and plain JS</text>
+
+  <path class="arrow" d="M327 213 H362"/>
+  <path class="arrow" d="M664 213 H699"/>
+
+  <rect class="panel-bright" x="135" y="380" width="325" height="180" rx="8"/>
+  <text class="kicker" x="159" y="412">RUNTIME EXPERIENCE</text>
+  <text class="heading" x="159" y="446">Portfolio to page</text>
+  <text class="body" x="159" y="480">Language and theme in</text>
+  <text class="body" x="159" y="508">localStorage; cards open</text>
+  <text class="body" x="159" y="536">rendered project sections.</text>
+
+  <rect class="panel-note" x="580" y="380" width="325" height="180" rx="8"/>
+  <text class="kicker" x="604" y="412">COOPERATION PATH</text>
+  <text class="heading" x="604" y="446">Modal, no backend</text>
+  <text class="body" x="604" y="476">Client validation,</text>
+  <text class="body" x="604" y="502">FormSubmit endpoint,</text>
+  <text class="body" x="604" y="528">mailto fallback;</text>
+  <text class="body" x="604" y="554">activation pending.</text>
+
+  <path class="arrow" d="M856 298 V345 H298 V370"/>
+  <path class="arrow" d="M462 470 H565"/>
+  <text class="small" x="301" y="622">Published from repository root on GitHub Pages</text>
+</svg>
